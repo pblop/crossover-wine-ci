@@ -23,7 +23,7 @@ jobs:
       matrix:
         CROSS_OVER_VERSION: [21.0.0] # 22.1.0, 22.0.1, 22.0.0, 21.2.0, 21.1.0, 21.0.0, 20.0.4, 20.0.2, 20.0.1, 20.0.0, 19.0.2, 19.0.1, 19.0.0
 
-    runs-on: macos-latest
+    runs-on: macos-13
 
     env:
       CROSS_OVER_SOURCE_URL: https://media.codeweavers.com/pub/crossover/source/crossover-sources-${{ matrix.CROSS_OVER_VERSION }}.tar.gz
